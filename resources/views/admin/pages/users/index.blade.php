@@ -26,6 +26,7 @@
                     <tr>
                         <th>Nome</th>
                         <th>E-mail</th>
+                        <th>Telefone</th>
                         <th width="270">Ações</th>
                     </tr>
                 </thead>
@@ -34,6 +35,7 @@
                         <tr>
                             <td>{{ $user->name }}</td>
                             <td>{{ $user->email }}</td>
+                            <td>{{ $user->phone }}</td>
                             <td style="width=10px;">
                                 <a href="{{ route('users.edit', $user->id) }}" class="btn btn-info">Edit</a>
                                 <a href="{{ route('users.show', $user->id) }}" class="btn btn-warning">VER</a>

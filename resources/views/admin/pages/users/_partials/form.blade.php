@@ -9,6 +9,10 @@
     <input type="email" name="email" class="form-control" placeholder="Nome:" value="{{ $user->email ?? old('email') }}">
 </div>
 <div class="form-group">
+    <label>Telefone:</label>
+    <input type="text" name="phone" class="form-control" placeholder="Nome:" value="{{ $user->phone ?? old('phone') }}">
+</div>
+<div class="form-group">
     <label>Senha:</label>
     <input type="password" name="password" class="form-control" placeholder="Senha:">
 </div>

@@ -31,7 +31,7 @@ return [
     */
 
     'logo' => '<b>Site Defender</b>',
-    'logo_img' => 'imgs/larafood-icon.png',
+    'logo_img' => 'imgs/1.png',
     'logo_img_class' => 'brand-image-xl',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
