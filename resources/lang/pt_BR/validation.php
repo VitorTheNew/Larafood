@@ -164,7 +164,6 @@ return [
         'mobile'                => 'celular',
         'month'                 => 'mês',
         'name'                  => 'nome',
-        'phone'                 => 'telefone',
         'password_confirmation' => 'confirmação da senha',
         'password'              => 'senha',
         'phone'                 => 'telefone',

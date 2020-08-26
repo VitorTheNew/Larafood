@@ -29,7 +29,7 @@ class StoreUpdateUser extends FormRequest
             'name' => ['required', 'string', 'min:3', 'max:255'],
             'email' => ['required', 'string', 'email', 'min:3', 'max:255', "unique:users,email,{$id},id"],
             'password' => ['required', 'string', 'min:6', 'max:16'],
-            'phone' => ['required', 'string', 'min:14', 'max:14'],
+            'phone' => ['required', 'string', 'min:9', 'max:14'],
         ];
 
         if ($this->method() == 'PUT') {
